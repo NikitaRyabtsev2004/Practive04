@@ -1,0 +1,23 @@
+{
+  "name": "practive",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "electron": "^34.2.0",
+    "pg": "^8.13.3",
+    "sqlite3": "^5.1.7",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "electron-builder": "^25.1.8"
+  }
+}
